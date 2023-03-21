@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Veículos</h1>
+        
+        <nav>
+            <a href="index.html">
+                <h2>inicio</h2>
+            </a> 
+            <a href="cadastroMarca.html">
+                <h2>marca</h2>
+            </a> <a href="cadastroModelo.html">
+                <h2>modelo</h2>
+            </a> 
+            <a href="cadastroVeiculo.html">
+                <h2>veiculo</h2>
+            </a>
+        </nav>
+    </header>
+
+    <div class="cadastro">
+        <label for="marca" class="label">Digite a marca a ser registrada</label>
+        <input type="text" id="marca" name="marca">
+
+        <select name="" id="">
+            <option value="null" disabled></option>
+        </select>
+
+
+        <label for="modelo" class="label">Digite o modelo a ser registrado</label>
+        <input type="text" id="modelo" name="modelo">
+
+        <button onclick="cadastrarModelo()">Cadastrar</button>
+    </div>
+    <script src="cadastroModelo.js"></script>
+</body>
+</html>

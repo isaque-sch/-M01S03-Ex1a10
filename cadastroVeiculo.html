@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Veículos</h1>
+        
+        <nav>
+            <a href="index.html">
+                <h2>inicio</h2>
+            </a> 
+            <a href="cadastroMarca.html">
+                <h2>marca</h2>
+            </a> <a href="cadastroModelo.html">
+                <h2>modelo</h2>
+            </a> 
+            <a href="cadastroVeiculo.html">
+                <h2>veiculo</h2>
+            </a>
+        </nav>
+    </header>
+    <div class="cadastro">
+        <label for="marca" class="label">Digite a marca a ser registrada</label>
+        <input type="text" id="marca" name="marca">
+
+        <label for="modelo" class="label">Digite o modelo a ser registrado</label>
+        <input type="text" id="modelo" name="modelo">
+
+        <label for="nome" class="label">Digite o nome a ser registrado</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="km" class="label">Digite o km do veículo a ser registrado</label>
+        <input type="text" id="km" name="km">
+
+        <label for="valor" class="label">Digite o valor do veículo a ser registrado</label>
+        <input type="text" id="valor" name="valor">
+
+        <label for="cor" class="label">Digite a cor do veículo a ser registrado</label>
+        <input type="text" id="cor" name="cor">
+
+        <button onclick="cadastrarVeiculo()">Cadastrar</button>
+    </div>
+    <div class="teste21">
+
+    </div>
+    <script src="cadastroVeiculo.js "></script>
+</body>
+</html>

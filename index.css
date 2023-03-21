@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+
+h1,h2,h3 {
+    color: rgba(255, 255, 255, 0.781);
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    margin-right: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label {
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 25px;
+}
+
+.cadastro {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.781);
+    width: 295px;
+}
+
+select {
+    background-color: rgba(255, 255, 255, 0.781);
+    width: 295px;
+}
+
+button {
+    margin-top: 20px;
+    height: 21px;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
+p{
+    color: rgba(255, 255, 255, 0.781);
+}
+
